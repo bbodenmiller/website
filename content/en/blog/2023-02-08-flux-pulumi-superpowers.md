@@ -33,7 +33,7 @@ because these have OCI registries with useful operational features like caching,
 and so on.
 
 But I think an even better reason for using Flux is that it can verify your sources. If you use a
-Flux source in a Pulumi stack, you can take better secure your supply chain. When you're using an
+Flux source in a Pulumi stack, you can better secure your supply chain. When you're using an
 OCI repository source for example, [Flux will check Cosign
 signatures](https://fluxcd.io/flux/components/source/ocirepositories/#verification) on each image
 for you, and refuse to update a source that does not have a valid signature.
